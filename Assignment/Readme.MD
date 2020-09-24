@@ -5,9 +5,11 @@ The analysis looks at the developments in the housing market during the period J
 
 **Navigating this Repo**
 ---
-* [Dataset](https://github.com/FeeshX/UMBC_Data601/blob/master/Assignment/Code/Housing_Analysis.ipynb) Raw .xlxs file. Retrived from the following link on 9/17/20: https://www.redfin.com/blog/data-center/
-* [Notebook](https://github.com/FeeshX/UMBC_Data601/blob/master/Assignment/Code/Housing_Analysis.ipynb) Jupyter notebook used to clean, organize and analyze data.
-* [Readme](https://github.com/FeeshX/UMBC_Data601/edit/master/Assignment/Readme.MD) An overview of the dataset, method and summary of analysis. 
+* [Dataset](https://github.com/FeeshX/UMBC_Data601/blob/master/Assignment/Code/Housing_Analysis.ipynb) - Raw .xlxs file. 
+  * Retrived from the following link on 9/17/20: https://www.redfin.com/blog/data-center/
+* [Notebook](https://github.com/FeeshX/UMBC_Data601/blob/master/Assignment/Code/Housing_Analysis.ipynb) - Jupyter notebook used to clean, organize and analyze data.
+* [Readme](https://github.com/FeeshX/UMBC_Data601/edit/master/Assignment/Readme.MD) - An overview of the dataset, method and summary of analysis. 
+* [License](https://github.com/FeeshX/UMBC_Data601/blob/master/Assignment/LICENSE) - MIT License
 
 **Method**
 ---
@@ -17,11 +19,11 @@ I initally converted the file from TSV to CSV for ease of analysis. Tab Separate
 ---
 My analysis shows that COVID-19 has impacted the U.S. housing market. As the pandemic starting spreading in mid-March, on the demand side, homebuyers may have been hesitant to visit prospective homes due to stay-at-home orders.
 
-![Image of Homes Inventory](https://github.com/FeeshX/UMBC_Data601/blob/master/Assignment/Images/Homes_inventory.PNG)
+![Image of Homes Delisted](https://github.com/FeeshX/UMBC_Data601/blob/master/Assignment/Images/Homes_delisted_YYYY_MM.PNG)
 
 On the supply-side, the inventory of homes decreased by 21.7% between March 2020 to April 2020 and the number of delistings increased by 39.1% as sellers may have delisted their homes to prevent the risk of contracting the disease. 
 
-![Image of Homes Delisted](https://github.com/FeeshX/UMBC_Data601/blob/master/Assignment/Images/Homes_delisted_YYYY_MM.PNG)
+![Image of Homes Inventory](https://github.com/FeeshX/UMBC_Data601/blob/master/Assignment/Images/Homes_inventory.PNG)
 
 The rebound in home sales is being led by mortgage interest rates, which hit an all-time low in August. The 30-year fixed mortgage rate is at an average of 2.98%, the lowest since 1971, according to data from Freddie Mac.
 
