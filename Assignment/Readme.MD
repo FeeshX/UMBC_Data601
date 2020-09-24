@@ -1,13 +1,17 @@
 ## **The Housing Market During the COVID-19 Pandemic**
 **Exploratory Analysis**
 
-The dataset shows the developments of the housing market during the period January 2017 - August 2020 in the U.S in terms of pricing, inventory and sales, as provided and defined by Redfin, a national real estate brokerage. The local data is grouped by metropolitan area and by county; overall it provides data on 1527 Counties. 
+The dataset shows the developments of the housing market during the period January 2017 - August 2020 in the U.S in terms of pricing, inventory and sales, as provided and defined by Redfin, a national real estate brokerage. The local data is grouped by metropolitan area and by county; overall it provides housing data on 1527 Counties. 
 
-*Dataset retrived from the following link: https://www.redfin.com/blog/data-center/*
+**Navigating this Repo**
+---
+* [Dataset](https://github.com/FeeshX/UMBC_Data601/blob/master/Assignment/Code/Housing_Analysis.ipynb) Raw .xlxs file. Retrived from the following link on 9/17/20: https://www.redfin.com/blog/data-center/
+* [Notebook](https://github.com/FeeshX/UMBC_Data601/blob/master/Assignment/Code/Housing_Analysis.ipynb) Jupyter notebook used to clean, organize and analyze data.
+* [Readme](https://github.com/FeeshX/UMBC_Data601/blob/master/Assignment/Code/Housing_Analysis.ipynb) An overview of the dataset, method and summary of analysis. 
 
 **Method**
 ---
-I narrowed down the available variables (columns) in the dataset to study the impact of the pandemic on three key areas: 1) Total Homes Sold 2) Inventory (number of homes on the market) and 3) Homes delisted. To assess whether Covid-19 affected numbers in these areas, I used data from 2017-2019 as comparision for the current year 2020. The initial dataset was collected on either a rolling 1, 4 or 12-week window. I scaled down my dataset to show numbers for a 1 week window, as it would better reflect any marginal changes in the housing market and provide a clearer picture.
+I initally converted the file from TSV to CSV for ease of analysis. Tab Separated Values (TSV)and Comma Separated Values (CSV) are the two file type extensions used to load a set of data. A .tsv file will have tab separated values whereas .csv file has comma separated fields. I narrowed down the available variables (columns) in the dataset to study the impact of the pandemic on three key areas: 1) Total Homes Sold 2) Inventory (number of homes on the market) and 3) Homes delisted. To assess whether Covid-19 affected numbers in these areas, I used data from 2017-2019 as comparision for the current year 2020. The initial dataset was collected on either a rolling 1, 4 or 12-week window. I scaled down my dataset to show numbers for a 1 week window, as it would better reflect any marginal changes in the housing market and provide a clearer picture.
 
 **Summary**
 ---
